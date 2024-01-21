@@ -1,53 +1,60 @@
-.banner{
-background-size: 90%;
-background-image: url(../images/group1.png);
-background-repeat: no-repeat;
-background-position: center center;
-justify-content: center;
-align-items: center;
-height: 40vh;
-margin-top: -36px;
-padding: 43px;
-border-radius: 100px;
-text-align: center;
-color: white;
-opacity:1.4;
+.banner {
+    background-size: 90%;
+    background-image: url(../images/group1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin-top: -36px;
+    padding: 43px;
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+    opacity: 1.4;
 
 }
-.logo img{
-    margin:10px 30px;
-    height:50px;
+
+.logo img {
+    margin: 10px 30px;
+    height: 50px;
     position: absolute;
-    top:10px;
-    left:60px;
+    top: 10px;
+    left: 60px;
 }
-.active{
+
+.active {
     color: orangered;
 }
-.title{
+
+.title {
     margin-left: 143px;
-    padding:4px;
+    padding: 4px;
 }
-.Ai{
-    color:orangered;
+
+.Ai {
+    color: orangered;
 }
-.top-right-corner{
+
+.top-right-corner {
     position: absolute;
-    top:10px;
-    right:40px;
+    top: 10px;
+    right: 40px;
 
 }
-.main-nav li{
+
+.main-nav li {
     list-style: none;
     margin-top: 30px;
     text-decoration: none;
     display: inline;
     padding: 17px;
-   
+
 }
-nav{
+
+nav {
     padding: 15px;
-    color:gray;
+    color: gray;
     font-size: 25px;
     margin: 25px;
 
@@ -57,68 +64,128 @@ nav{
 
 
 
-.button{
+.button {
     margin-top: 30px;
     margin-right: 5px;
-    padding:10px 30px;
-   
-    
+    padding: 10px 30px;
+
+
 }
 
-.btn1{
+.btn1 {
     border: 1px solid white;
-    padding:10px 30px ;
+    padding: 10px 30px;
     text-decoration: none;
     font-size: 13px;
-    color:gray;
+    color: gray;
     border-radius: 5px;
 }
-.btn2{
+
+.btn2 {
     border: 1px solid white;
-    padding:10px 30px ;
-    text-decoration: none;
-    font-size: 13px;
-    margin-left: 0px;
-    color:gray;
-    border-radius: 5px;
-}
-.btn3{
-    border: 1px solid white;
-    padding:10px 30px ;
+    padding: 10px 30px;
     text-decoration: none;
     font-size: 13px;
     margin-left: 0px;
-    color:gray;
+    color: gray;
     border-radius: 5px;
 }
-.btn4{
+
+.btn3 {
     border: 1px solid white;
-    padding:10px 30px ;
+    padding: 10px 30px;
     text-decoration: none;
     font-size: 13px;
     margin-left: 0px;
-    color:white;
+    color: gray;
     border-radius: 5px;
-    background-color:orangered;
 }
-.side-by-side{
-    display: flex;
+
+.btn4 {
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 0px;
+    color: white;
+    border-radius: 5px;
+    background-color: orangered;
 }
-.side-by-side img{
-margin-right: -9px;
-margin-left: 40px;
-height: 40vh;
-padding: -29px;
-border-radius: 50px;
-text-align: center;
-color: white;
-opacity:1.4;
+
+.Destination {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 43px;
+    border-radius: 50px;
+    text-align: center;
+
 }
-.Destination{
-justify-content: center;
-align-items: center;
-margin-top: 10px;
-padding: 43px;
-border-radius: 50px;
-text-align: center;
+
+.side-by-side img {
+    margin-right: 15px;
+    margin-left: 50px;
+    height: 40vh;
+    padding: -20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.side-by-side2 img {
+    margin-top: 10px;
+    margin-right: -15px;
+    margin-left: 40px;
+    height: 40vh;
+    padding: -29px;
+    border-radius: 35px;
+    text-align: center;
+
+}
+
+.side-by-side3 img {
+
+    margin-top: 40px;
+    margin-right: -25px;
+    margin-left: 61px;
+    height: 40vh;
+    padding: -20px;
+    border-radius: 25px;
+}
+
+@media(max-width:600px) {
+
+    nav,
+    .top-right-corner {
+
+        padding: 16px;
+        color: gray;
+        font-size: 7px;
+        margin: -13px;
+    }
+
+    .side-by-side img {
+        margin-top: 40px;
+        margin-left: 32px;
+        width: 67%;
+        height: 44vh;
+        border-radius: 25px;
+    }
+
+    .side-by-side2 img {
+        margin-top: 40px;
+        margin-left: 32px;
+        width: 67%;
+        height: 44vh;
+        border-radius: 25px;
+    }
+
+    .side-by-side3 img {
+        margin-top: 40px;
+        margin-left: 32px;
+        width: 67%;
+        height: 44vh;
+        border-radius: 25px;
+    }
+    
 }
